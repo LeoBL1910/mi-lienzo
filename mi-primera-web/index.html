@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mi primer lienzo</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="toolbar">
+      <label>Color:
+        <input id="color" type="color" value="#000000">
+      </label>
+      <label>Grosor:
+        <input id="size" type="range" min="1" max="50" value="4">
+      </label>
+      <button id="clear">🧹 Limpiar</button>
+    </div>
+
+    <canvas id="canvas"></canvas>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
